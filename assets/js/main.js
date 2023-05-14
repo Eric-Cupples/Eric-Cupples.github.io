@@ -23,7 +23,7 @@ function blog_posts() {
     // keeping it static, can be fetched from a blog dynamically as well
     let posts = [
         {
-            url: '/assets/Cupples-Resume.pdf',
+            url: "/assets/Cupples-Resume.pdf",
             title: 'Anayltical Report Project - Next Generation Fleet Replacment at ERAU',
         },
         {
