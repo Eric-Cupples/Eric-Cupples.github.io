@@ -23,7 +23,7 @@ function blog_posts() {
     // keeping it static, can be fetched from a blog dynamically as well
     let posts = [
         {
-            url: '/asseets/Next Generation Fleet Replacment at ERAU.pdf',
+            url: <a href="http://web-central.appspot.com/.../web-fundamentals-icon192x192.png" download="WebfundamentalsLogo">download me</a>,
             title: 'Anayltical Report Project - Next Generation Fleet Replacment at ERAU',
         },
         {
