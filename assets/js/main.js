@@ -23,8 +23,8 @@ function blog_posts() {
     // keeping it static, can be fetched from a blog dynamically as well
     let posts = [
         {
-            url: 'https://www.nagekar.com/2017/02/trip-to-bramhatal-uttarakhand.html',
-            title: 'Trek To Bramhatal (Uttarakhand)',
+            url: '/asseets/Next Generation Fleet Replacment at ERAU.pdf',
+            title: 'Anayltical Report Project - Next Generation Fleet Replacment at ERAU',
         },
         {
             url: 'https://www.nagekar.com/2017/08/privacy.html',
