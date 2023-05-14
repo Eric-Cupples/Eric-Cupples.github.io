@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: newpage
 permalink: /projects.html
 title: Projects
 header-img: 
