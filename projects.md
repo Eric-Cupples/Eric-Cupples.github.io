@@ -18,7 +18,6 @@ header-img:
                     <a id="native" class="semi-transparent-button with-border white-button" onclick="selected('native')">Native</a>
                     <a id="security" class="semi-transparent-button with-border white-button" onclick="selected('security')">Security</a>
                     <a id="diy" class="semi-transparent-button with-border white-button" onclick="selected('diy')">DIY</a>
-
                 </div>
 
             <div class="projects-wrapper">
