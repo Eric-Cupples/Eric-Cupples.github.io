@@ -23,24 +23,24 @@ function blog_posts() {
     // keeping it static, can be fetched from a blog dynamically as well
     let posts = [
         {
-            url: "/assets/Cupples-Resume.pdf",
+            url: "/assets/Next Generation Fleet Replacment at ERAU.pdf",
             title: 'Anayltical Report Project - Next Generation Fleet Replacment at ERAU',
         },
         {
             url: 'https://www.nagekar.com/2017/08/privacy.html',
-            title: 'Privacy - How I Converted',
+            title: 'ENTER 2',
         },
         {
             url: 'https://www.nagekar.com/2018/01/jagriti-yatra.html',
-            title: 'Jagriti Yatra 2017',
+            title: 'Enter 3',
         },
         {
             url: 'https://www.nagekar.com/2017/08/private-cloud-part-2.html',
-            title: 'Private Cloud Part 2 | Encrypted Storage With NextCloud',
+            title: 'Build Report - ARCTOS Robot Arm',
         },
         {
             url: 'https://www.nagekar.com/2018/07/eli5-how-https-works.html',
-            title: 'ELI5 - How HTTPS Works',
+            title: 'Design-Build-Fly 2023 ERAU Team Report',
         },
     ];
 
