@@ -27,15 +27,15 @@ function blog_posts() {
             title: 'Anayltical Report Project - Next Generation Fleet Replacment at ERAU',
         },
         {
-            url: 'https://www.nagekar.com/2017/08/privacy.html',
-            title: 'ENTER 2',
+            url: 'https://www.google.com',
+            title: 'MATLAB Final Project Report - Orbital Launch Calculator',
         },
         {
-            url: 'https://www.nagekar.com/2018/01/jagriti-yatra.html',
-            title: 'Enter 3',
+            url: 'https://www.google.com',
+            title: 'Build Report - Airfoil Build and Research',
         },
         {
-            url: 'https://www.nagekar.com/2017/08/private-cloud-part-2.html',
+            url: 'https://www.google.com',
             title: 'Build Report - ARCTOS Robot Arm',
         },
         {
