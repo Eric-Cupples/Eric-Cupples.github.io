@@ -35,7 +35,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['Android', 'OpenCV'],
             description: "Attendance marking tool that uses face recognition for marking attendance and firebase for tracking and analytics.",
-            categories: ['featured', 'native']
+            categories: ['featured', 'security']
         },
         {
             image: 'assets/images/mpw.jpg',
