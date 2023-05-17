@@ -11,12 +11,12 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/mentors.jpg',
+            image: 'assets/images/project1.jpg',
             link: 'https://github.com/Eric-Cupples/EGR115-Orbital-Launch-Calculator-Project',
             title: 'Orbital Launch Calculator',
             demo: 'https://myerauedu-my.sharepoint.com/:v:/g/personal/cupplese_my_erau_edu/EUJRujxqMrFFo6FHIE0T1jcBOLpcbgB8zpjsQho4Zs6FLg?e=FG0Av2',
             technologies: ['MatLab', 'Simulink'],
-            description: "Flask web application for easy reporting updates to one's mentor. Multi-user support, easy to deploy and use.",
+            description: "This project creates an application that calculates launch parameters for rockets using user inputs and a comprehensive database, offering analysis capabilities and data export options for efficient rocket design and optimization.",
             categories: ['featured', 'aerospace', 'programming']
         },
         {
@@ -157,9 +157,9 @@ let render_projects = (slug) => {
     ]
 
     let projects = [];
-    if(slug == 'all') {
+    if (slug == 'all') {
         projects = projects_obj.map(project_mapper);
-    } 
+    }
     else {
         projects = projects_obj.filter(project => project.categories.includes(slug)).map(project_mapper);
     }
@@ -172,13 +172,13 @@ let project_mapper = project => {
                 
             <div class="card radius shadowDepth1">
 
-                ${project.image ? 
-                    `<div class="card__image border-tlr-radius">
+                ${project.image ?
+            `<div class="card__image border-tlr-radius">
                         <a href="${project.link}">
                             <img src="${project.image}" alt="image" id="project-image" class="border-tlr-radius">
                         </a>
-                    </div>`           
-                : ''}
+                    </div>`
+            : ''}
 
         
                 <div class="card__content card__padding">
@@ -192,8 +192,8 @@ let project_mapper = project => {
                                 
                     <div class="card__meta">
                         ${project.technologies.map(tech =>
-                            `<span class="project-technology paragraph-text-normal">${tech}</span>`
-                        ).join('')}
+                `<span class="project-technology paragraph-text-normal">${tech}</span>`
+            ).join('')}
                     </div>
 
                 </div>
