@@ -27,7 +27,7 @@ function blog_posts() {
             title: 'Anayltical Report Project - Next Generation Fleet Replacment at ERAU',
         },
         {
-            url: 'https://www.google.com',
+            url: 'https://myerauedu-my.sharepoint.com/:v:/g/personal/cupplese_my_erau_edu/EUJRujxqMrFFo6FHIE0T1jcBOLpcbgB8zpjsQho4Zs6FLg?e=FG0Av2',
             title: 'MATLAB Final Project Report - Orbital Launch Calculator',
         },
         {
@@ -59,7 +59,7 @@ function blog_posts() {
         let post_template = `
         <div class="blog-post" onclick="blog_link_click('${post.url}');">
 
-            <div class="blog-link">
+            <div class="Reports-Link">
     
                 <h3><a href="${post.url}">${post.title}</a></h3>            
 
@@ -80,7 +80,7 @@ function blog_posts() {
 
         <div class="blog-link">
 
-            <h3><a href="https://eric-cupples.github.io/projects.html">See More Reports</a></h3>            
+            <h3><a href="#projects">See More Reports</a></h3>            
 
         </div>
 

@@ -12,12 +12,12 @@ let render_projects = (slug) => {
     let projects_obj = [
         {
             image: 'assets/images/mentors.jpg',
-            link: 'https://github.com/abhn/Mporter',
-            title: 'Project 1',
-            demo: 'https://mporter.co',
-            technologies: ['Flask', 'Celery', 'Python'],
+            link: 'https://github.com/Eric-Cupples/EGR115-Orbital-Launch-Calculator-Project',
+            title: 'Orbital Launch Calculator',
+            demo: 'https://myerauedu-my.sharepoint.com/:v:/g/personal/cupplese_my_erau_edu/EUJRujxqMrFFo6FHIE0T1jcBOLpcbgB8zpjsQho4Zs6FLg?e=FG0Av2',
+            technologies: ['MatLab', 'Simulink'],
             description: "Flask web application for easy reporting updates to one's mentor. Multi-user support, easy to deploy and use.",
-            categories: ['featured', 'webdev']
+            categories: ['featured', 'aerospace', 'programming']
         },
         {
             image: 'assets/images/mobile-landscape.jpg',
