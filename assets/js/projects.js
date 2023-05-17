@@ -20,13 +20,13 @@ let render_projects = (slug) => {
             categories: ['featured', 'aerospace', 'programming']
         },
         {
-            image: 'assets/images/mobile-landscape.jpg',
-            link: 'https://github.com/abhn/Wall-E',
-            title: 'Project 2',
-            demo: 'http://wall-e-jekyll.github.io/',
-            technologies: ['Semantic UI', 'Jekyll'],
+            image: 'assets/images/project2  .jpg',
+            link: 'https://github.com/Eric-Cupples/Eric-Cupples.github.io',
+            title: 'Website Portfolio (This Website)',
+            demo: 'https://eric-cupples.github.io/',
+            technologies: ['HTML', 'CSS', 'JS'],
             description: "A modern Jekyll theme with grid frontpage, beautiful typography, mobile responsive, made with Semantic UI.",
-            categories: ['featured', 'webdev']
+            categories: ['programming']
         },
         {
             image: 'assets/images/collage.jpg',
