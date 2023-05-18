@@ -26,34 +26,34 @@ let render_projects = (slug) => {
             demo: 'https://eric-cupples.github.io/',
             technologies: ['HTML', 'CSS', 'JS'],
             description: "A modern Jekyll theme with grid frontpage, beautiful typography, mobile responsive, made with Semantic UI.",
-            categories: ['programming']
+            categories: ['featured', 'programming']
         },
         {
-            image: 'assets/images/collage.jpg',
-            link: 'https://github.com/abhn/Marvel',
-            title: 'Project 3',
+            image: 'assets/images/project3.jpg',
+            link: '#projects',
+            title: 'Electrical Board FRC Robotics',
             demo: false,
-            technologies: ['Android', 'OpenCV'],
-            description: "Attendance marking tool that uses face recognition for marking attendance and firebase for tracking and analytics.",
-            categories: ['featured', 'security']
+            technologies: ['Java', 'AutoCAD', 'Fusion 360', 'FRC'],
+            description: "Created a simple and sleek electrical design measuring 4x8 inches, as opposed to the traditional 32x28 space commonly used by the majority of teams.",
+            categories: ['other']
         },
         {
-            image: 'assets/images/mpw.jpg',
-            link: 'https://github.com/abhn/mpw',
-            title: 'Project 4',
-            demo: 'https://www.nagekar.com/mpw',
-            technologies: ['Semantic UI', 'CSS3'],
-            description: "Master Password is an ingenious password solution that makes your passwords truly impossible to lose.",
-            categories: ['featured', 'security']
-        },
-        {
-            image: 'assets/images/social-share-count.jpeg',
-            link: 'https://github.com/abhn/Social-Share-Counts',
-            title: 'Project 5',
+            image: 'assets/images/project4.jpg',
+            link: '#projects',
+            title: 'V4 2 Stroke 4 stroke Engine',
             demo: false,
-            technologies: ['Python'],
+            technologies: ['Solidworks', 'Solidworks Simulation'],
+            description: "The classic two-stroke engine, but adapted for the larger assembly of a four-stroke engine. While still utilizing the camshaft of a two-stroke, this engine was able to accomplish four strokes through an integrated separated piston design.",
+            categories: ['featured', '3d cad']
+        },
+        {
+            image: '',
+            link: '#projects',
+            title: 'Mercury Health - Phase 2 Module Designs',
+            demo: false,
+            technologies: ['Solidworks', 'Manufacturing', '3D Printing'],
             description: "Ever wondered how many times a URL has been shared on popular social networks?",
-            categories: ['featured','native']
+            categories: ['featured','3d cad']
         },
         {
             image: 'assets/images/data-destroyer.png',
@@ -186,7 +186,7 @@ let project_mapper = project => {
                     <article class="card__article">
                         <h2><a href="${project.link}">${project.title}</a></h2>
         
-                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}">Demo</a>` : ''}</p>
+                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}"> DEMO LINK </a>` : ''}</p>
                     </article>
 
                                 
