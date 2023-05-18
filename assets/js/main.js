@@ -28,19 +28,19 @@ function blog_posts() {
         },
         {
             url: 'https://myerauedu-my.sharepoint.com/:v:/g/personal/cupplese_my_erau_edu/EUJRujxqMrFFo6FHIE0T1jcBOLpcbgB8zpjsQho4Zs6FLg?e=FG0Av2',
-            title: '  MATLAB Final Project Report - Orbital Launch Calculator',
+            title: 'MATLAB Final Project Report - Orbital Launch Calculator',
         },
         {
-            url: 'https://www.google.com',
-            title: '  Build Report - Airfoil Build and Research',
+            url: '#reports',
+            title: 'Build Report - Airfoil Build and Research',
         },
         {
-            url: 'https://www.google.com',
-            title: '  Build Report - ARCTOS Robot Arm',
+            url: '#reports',
+            title: 'Build Report - ARCTOS Robot Arm',
         },
         {
-            url: 'https://www.nagekar.com/2018/07/eli5-how-https-works.html',
-            title: '  Design-Build-Fly 2023 ERAU Team Report',
+            url: '#reports',
+            title: 'Design-Build-Fly 2023 ERAU Team Report',
         },
     ];
 
