@@ -24,13 +24,13 @@
         #myBtn {
             display: none;
             position: fixed;
-            bottom: 50px;
-            right: 50px;
+            bottom: 75px;
+            right: 75px;
             z-index: 99;
             border: none;
             outline: none;
             background-color: #3498db;
-            color: white;   
+            color: white;
             cursor: pointer;
             padding: 15px;
             border-radius: 100%;
@@ -38,7 +38,7 @@
         }
 
         #myBtn:hover {
-            background-color: #2980b9;
+            background-color: #286b97;
             /* Add a dark-grey background on hover */
         }
     </style>
@@ -55,12 +55,14 @@
                 mybutton.style.display = "none";
             }
         }
-
+        
         function topFunction() {
-            document.body.scrollTop = 0, 0, "smooth"; // For Safari
-            document.documentElement.scrollTop = 0, 0, "smooth"; // For Chrome, Firefox, IE and Opera
+            const myBtn = document.querySelector("#myBtn");
+            myBtn.addEventListener("click", function(){
+                window.scrollTo({top: 0, left: 0, behavior: "smooth"});
+            });
         }
-
+        
     </script>
 
 </body>
