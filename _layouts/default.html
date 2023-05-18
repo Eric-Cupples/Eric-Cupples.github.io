@@ -44,16 +44,23 @@
         <i class="material-icons">arrow_upward</i>
     </button>
 
-    <script>
-        const myBtn = document.querySelector("#myBtn");
-        myBtn.addEventListener("click", function () {
-            window.scrollTo({
-                top: 0,
-                left: 0,
-                behavior: "smooth"
-            });
-        });
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
+    <script>
+        var mybutton = document.getElementByID("myBtn");
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.sctollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+        }
     </script>
 
 </body>
